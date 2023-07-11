@@ -1,0 +1,175 @@
+.signup-input{
+    width: 20vw;
+    height: 29px;
+    outline: none;
+    padding-left: 5px;
+    border-radius: 4px;
+    margin-top: 30px;
+    border:none;
+    border-bottom: 3px solid #111111;
+
+}
+.signup-btn{
+    margin-top: 10px;
+    width: 14vw;
+    height: 32px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 420px; /* Adjust the width as needed */
+    height: 419px; /* Adjust the height as needed */
+    border: 1px solid black;
+    padding: auto;
+  }
+  
+  .image-box {
+    background-color: #f0f0f0;
+  }
+  .watches-container{
+    display: flex;
+    justify-content: space-around;
+    width: 98vw;
+    height: 100vh;
+    background-color:  #F7B79D;
+    padding-right: 30px;
+    margin: auto;
+    align-items: center;
+  }
+  .image-box img{
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease;
+    padding: auto;
+  }
+  .rightpart{
+    padding-right: 80px;
+  }
+  .leftpart p{
+    font-size: 20px;
+    margin-top: 10px;
+
+
+  }
+  .leftpart {
+    width: 30vw;
+  }
+  .image-box img:hover{
+    transform: scale(1.1);
+
+  }
+  watches-container-border{
+    border-bottom: 3px solid #111111;
+    margin-top: 20px;
+  }
+  @media screen and (max-width:350px){
+    .signup-input{
+        position: relative;
+        width: 250px;
+        height: 29px;
+        outline: none;
+        align-self: center;
+        border-radius: 4px;
+        margin-top: 50px;
+        border:none;
+        border-bottom: 3px solid #111111;
+    
+    }
+    .signup-btn{
+        margin-top: 10px;
+        width: 50vw;
+        height: 32px;
+        background-color: black;
+        color: aliceblue;
+        border-radius: 20px;
+        
+    }
+    #watches-containerleftparagragh{
+        font-size: 0.7rem;
+        width: 250px;
+        height: 20px;
+        margin-left: 5px;
+        margin: 0;padding: 0;
+        display: inline-block;
+        
+
+    }
+    .leftpart{
+        
+        margin-left: -240px;
+
+        
+    }
+    .leftpart p{
+        font-size: 2px;
+    }
+    .leftpartparagrapg{
+        font-size: 12px; 
+    }
+    .leftpart h2{
+        font-size: 19px;
+        width: 150px;
+    }
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        width: 320px; 
+        height: 319px; 
+        border: 1px solid black;
+        align-self: center;
+      }
+      p{
+        font-size: 7px;
+      }
+      
+      .image-box {
+        background-color: #f0f0f0;
+      }
+      .watches-container{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 20px;
+        margin-left: 0;
+        width: 350px;
+        
+        
+        
+        height: 100vh;
+        background-color:  #F7B79D;
+        
+       
+        
+      }
+      .image-box img{
+        width: 150px;
+        height: 150px;
+        transition: transform 0.3s ease;
+        padding: auto;
+      }
+      
+      
+    
+    
+      
+      
+      .image-box img:hover{
+        transform: scale(1.1);
+    
+      }
+      watches-container-border{
+        border-bottom: 3px solid #111111;
+        margin-top: 20px;
+      }
+  }

@@ -1,0 +1,51 @@
+.finejewelry-container{
+    height: 80vh;
+    width: 100vw;
+    align-items: center;
+    
+}
+.finejewelryMappedImg{
+    height: 180px;
+    transition: transform 0.3s ease;
+}
+.finejewelryMapped{
+    padding-bottom: 30px;
+    transition: transform 0.3s ease;
+    height: 170px;
+    padding-top: 120px;
+    padding-bottom: 190px;
+    text-align: center;
+}
+.finejewelryMapped:hover{
+    transform: scale(1.1);
+
+
+}
+.finejewelryMappedImg:hover{
+    transform: scale(1.1);
+
+
+}
+@media screen and (max-width:350px){
+    .finejewelryMapped{
+        padding-bottom: 30px;
+        transition: transform 0.3s ease;
+        height: 170px;
+        width: 170px;
+        padding-top: 120px;
+        padding-bottom: 190px;
+        text-align: center;
+    }
+    .finejewelryMappedImg{
+        height: 90px;
+        width: 90px;
+        transition: transform 0.3s ease;
+    }
+    .finejewelry-container{
+        height: 80vh;
+        width: 100vw;
+        align-items: center;
+        padding-top: 110px;
+        
+    }
+}

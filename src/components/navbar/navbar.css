@@ -1,0 +1,239 @@
+*{
+    margin: 0;padding: 0;
+
+}
+nav ul li{
+    list-style: none;
+    
+}
+.logo span {
+    font-weight: bolder ;
+}
+.navbarItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 30px;
+    background-color: #e7e7e7;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    width: 92%;
+    height: 80px;
+    border-radius: 13px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
+
+}
+.logo{
+    color: #000000;
+    justify-self: start;
+    cursor: pointer;
+    
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: end;
+    
+
+}
+.nav-links{
+    text-decoration: none;
+    color: #000000;
+    padding: 0.7rem 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.nav-links:hover{
+    background:  #F7B79D;
+    border-radius: 4px;
+    transform: all 0.2s easy-in-out;
+    
+}
+.menu-icons{
+    color: rgb(0, 0, 0);
+    display: none;
+}
+@media screen and (max-width:700px){
+    .navbar-rightpart{
+        display: none !important;
+    }
+    .navbarItems{
+        z-index: 99;
+    }
+    .logo{
+        width: 150px;
+        font-size: 17px;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: rgba(255,255,255,.25);
+        box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+        backdrop-filter: blur(4px);
+        border-radius: 13px;
+        width: 100%;
+        
+        height: auto;
+        position: absolute;
+        
+        top: 0;
+        left: -110%;
+        
+        z-index: -1;
+        transition: all 0.5s ease-in-out;
+        
+        align-items: stretch;
+        padding: 80px 0 30px 0;
+        
+        
+    }
+    .nav-menu.active{
+        left:0%;
+    }
+
+    .nav-links{
+        display: block;
+        widows: 100%;
+        padding: 2rem;
+        color: #222;
+
+    }
+    .nav-links:hover{
+        background: rgba(255,255,255,0.25);
+        backdrop-filter: blur(20px);
+
+    }
+    .menu-icons{
+        display: block;
+    }
+    .AiFillCloseCircle{
+        height: 110px;
+        width: 30px;
+        cursor: pointer;
+        color: rgb(105, 105, 105);
+        padding-left: 260px;
+    }
+    .FaBars{
+        height: 110px;
+        width: 30px;
+        cursor: pointer;
+        color: rgb(65, 65, 65);
+        padding-left: 260px;
+        
+
+    }
+    /* .navbar-rightpart{
+        margin-right: -300px;
+    } */
+    
+}
+.icon{
+    margin: 17px;
+}
+@media screen and (max-width:350px){
+    .logo p{
+        font-size: 5px !important;
+    }
+    .AiFillCloseCircle{
+        margin-left: 300px !important;
+    }
+    .navbar-rightpart{
+        display: none !important;
+    }
+    *{
+        margin: 0;padding: 0;
+    }
+    .FaBars{
+        margin-right: 120px;
+        color: #222;
+    }
+    .AiFillCloseCircle{
+        position: absolute;
+    }
+    .navbarItems{
+        z-index: 99;
+    }
+    .logo{
+        width: 150px;
+        font-size: 17px;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: rgba(255,255,255,.25);
+        box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+        backdrop-filter: blur(4px);
+        border-radius: 13px;
+        width: 100%;
+        
+        height: auto;
+        position: absolute;
+        
+        top: 0;
+        left: -110%;
+        
+        z-index: -1;
+        transition: all 0.5s ease-in-out;
+        
+        align-items: stretch;
+        padding: 80px 0 30px 0;
+        
+        
+    }
+    .nav-menu.active{
+        left:0%;
+    }
+
+    .nav-links{
+        display: block;
+        widows: 100%;
+        padding: 2rem;
+        color: #222;
+
+    }
+    .nav-links:hover{
+        background: rgba(255,255,255,0.25);
+        backdrop-filter: blur(20px);
+
+    }
+    .menu-icons{
+        display: block;
+    }
+    .AiFillCloseCircle{
+        height: 110px;
+        width: 30px;
+        cursor: pointer;
+        color: rgb(105, 105, 105);
+        padding-left: 260px;
+    }
+    .FaBars{
+        height: 110px;
+        width: 30px;
+        cursor: pointer;
+        color: rgb(65, 65, 65);
+        padding-left: 260px;
+        
+
+    }
+    /* .navbar-rightpart{
+        margin-right: -300px;
+    } */
+    
+}
+.icon{
+    margin: 17px;
+}
+
+
+
